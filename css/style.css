@@ -55,7 +55,10 @@ img {
     /* set the image width so no matter size it won't spill out of it's container */
     width: 100%;
 }
-
+img.animated-gif{
+    width: 100%;
+    height: auto;
+  }
 
 /* Navbar */
 .navbar {
