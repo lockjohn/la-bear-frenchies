@@ -14,6 +14,11 @@
     margin: 10px;
 }
 
+.video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
+
 .btn {
     display: inline-block;
     padding: 10px 30px;
