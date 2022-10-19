@@ -176,10 +176,13 @@ height: 80px;
     gap: 30px;
     overflow: visible;
     justify-items: center;
+    margin-bottom: 40px;
 }
 
 .showcase-text {
     animation: slideInFromLeft 1s ease-in;
+    padding-bottom: 40px;
+
 }
 
 .showcase-form {
@@ -196,8 +199,10 @@ height: 80px;
 }
 
 
-.showcase::before, 
-.showcase::after {
+
+
+#indexintro::before, 
+#indexintro::after {
     content: ''; 
     /* to use these pseudo classes, req this property, but leaving blank */
     position: absolute;
@@ -249,6 +254,10 @@ height: 80px;
     grid-template-rows: repeat(2, 1fr);
 }
 
+/* featurette */
+.featurette {
+    grid-template-columns: none;
+}
 
 
 /* Cloud */
