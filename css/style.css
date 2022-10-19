@@ -60,6 +60,14 @@ img.animated-gif{
     height: auto;
   }
 
+header {
+    position: sticky;
+    /* width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100; */
+}
+
 /* Navbar */
 .navbar {
     background-color: var(--primary-color);
@@ -193,7 +201,7 @@ height: 80px;
     /* this causes the overflow of the form element from it's container, making a scroll bar appear, but we want it to spill over border so we change the showcase grid to overflow visible */
     width: 400px;
     padding: 14px;
-    z-index: 100;
+    z-index: 99;
     animation: slideInFromRight 1s ease-in;
     justify-self: flex-end;    
 }
