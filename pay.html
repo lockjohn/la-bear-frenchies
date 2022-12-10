@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>La Bear Frenchies | About Us</title>
+    <meta name="keywords" content="French Bulldog Breeders">
+    <meta name="description" content="A little about us as French Bulldog Breeders">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2TG5FJKHNB"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2TG5FJKHNB');
+</script>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+    <div class="navbar">
+        <!-- logo and nav buttons, but wrapped in a container to refine spatial control of edges on larger screens -->
+        <div class="container flex">
+
+            <h1 class="logo">La Bear <span style="font-size:12px; font-family:lato;">FRENCHIES</span></h1>
+            <img class="my-1" src="images/logos/Gold&MagentaLilac.png" alt="frenchie logo">
+            <nav>
+                <ul class="push">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="puppies.html">Puppies</a></li>
+                    <li><a href="stud.html">Stud</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+    <h2 class="contact">email: LaBearFrenchies<i class="fas fa-at"></i>gmail.com | text: 214.861.7611</h3>
+    </header>
+        <!-- Head -->
+        <section class="docs-head bg-primary py-3">
+            <div class="container grid">
+                <div>
+                    <h1 class="xl">Payment Page</h1>
+                    
+                </div>
+
+            </div>
+        </section>
+        <!---Showcase -->
+        <section class="showcase">
+            <div class="container grid">
+                <div class="showcase-text">
+                    <p>To make a payment, please enter a short description of the puppy or stud you are paying for in the top box. Enter the payment amount in the second box. Then click on "Debit or Credit Card" and follow the prompts to enter your information.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div id="smart-button-container">
+                        <div style="text-align: center"><label for="description">Puppy Description </label><input type="text" name="descriptionInput" id="description" maxlength="127" value=""></div>
+                          <p id="descriptionError" style="visibility: hidden; color:red; text-align: center;">Please enter a description</p>
+                        <div style="text-align: center"><label for="amount">Puppy Price </label><input name="amountInput" type="number" id="amount" value="" ><span> USD</span></div>
+                          <p id="priceLabelError" style="visibility: hidden; color:red; text-align: center;">Please enter a price</p>
+                        <div id="invoiceidDiv" style="text-align: center; display: none;"><label for="invoiceid"> </label><input name="invoiceid" maxlength="127" type="text" id="invoiceid" value="" ></div>
+                          <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
+                        <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
+                      </div>
+                      <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+                      <script>
+                      function initPayPalButton() {
+                        var description = document.querySelector('#smart-button-container #description');
+                        var amount = document.querySelector('#smart-button-container #amount');
+                        var descriptionError = document.querySelector('#smart-button-container #descriptionError');
+                        var priceError = document.querySelector('#smart-button-container #priceLabelError');
+                        var invoiceid = document.querySelector('#smart-button-container #invoiceid');
+                        var invoiceidError = document.querySelector('#smart-button-container #invoiceidError');
+                        var invoiceidDiv = document.querySelector('#smart-button-container #invoiceidDiv');
+                    
+                        var elArr = [description, amount];
+                    
+                        if (invoiceidDiv.firstChild.innerHTML.length > 1) {
+                          invoiceidDiv.style.display = "block";
+                        }
+                    
+                        var purchase_units = [];
+                        purchase_units[0] = {};
+                        purchase_units[0].amount = {};
+                    
+                        function validate(event) {
+                          return event.value.length > 0;
+                        }
+                    
+                        paypal.Buttons({
+                          style: {
+                            color: 'gold',
+                            shape: 'rect',
+                            label: 'paypal',
+                            layout: 'vertical',
+                            
+                          },
+                    
+                          onInit: function (data, actions) {
+                            actions.disable();
+                    
+                            if(invoiceidDiv.style.display === "block") {
+                              elArr.push(invoiceid);
+                            }
+                    
+                            elArr.forEach(function (item) {
+                              item.addEventListener('keyup', function (event) {
+                                var result = elArr.every(validate);
+                                if (result) {
+                                  actions.enable();
+                                } else {
+                                  actions.disable();
+                                }
+                              });
+                            });
+                          },
+                    
+                          onClick: function () {
+                            if (description.value.length < 1) {
+                              descriptionError.style.visibility = "visible";
+                            } else {
+                              descriptionError.style.visibility = "hidden";
+                            }
+                    
+                            if (amount.value.length < 1) {
+                              priceError.style.visibility = "visible";
+                            } else {
+                              priceError.style.visibility = "hidden";
+                            }
+                    
+                            if (invoiceid.value.length < 1 && invoiceidDiv.style.display === "block") {
+                              invoiceidError.style.visibility = "visible";
+                            } else {
+                              invoiceidError.style.visibility = "hidden";
+                            }
+                    
+                            purchase_units[0].description = description.value;
+                            purchase_units[0].amount.value = amount.value;
+                    
+                            if(invoiceid.value !== '') {
+                              purchase_units[0].invoice_id = invoiceid.value;
+                            }
+                          },
+                    
+                          createOrder: function (data, actions) {
+                            return actions.order.create({
+                              purchase_units: purchase_units,
+                            });
+                          },
+                    
+                          onApprove: function (data, actions) {
+                            return actions.order.capture().then(function (orderData) {
+                    
+                              // Full available details
+                              console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                    
+                              // Show a success message within this page, e.g.
+                              const element = document.getElementById('paypal-button-container');
+                              element.innerHTML = '';
+                              element.innerHTML = '<h3>Thank you for your payment!</h3>';
+                    
+                              // Or go to another URL:  actions.redirect('thank_you.html');
+                              
+                            });
+                          },
+                    
+                          onError: function (err) {
+                            console.log(err);
+                          }
+                        }).render('#paypal-button-container');
+                      }
+                      initPayPalButton();
+                      </script>
+
+                </div>
+            </div>
+        </section>
+
+       
+
+
+        <!-- footer -->
+        <footer class="footer bg-light py-5">
+            <div class="container grid grid-3">
+                <div>
+                    <img src="images/logos/frenchiesmall.png" alt="frenchie logo">
+                    <h1 class="lead">La Bear Frenchies</h1>
+                    <p class="sm"> Dallas, TX </br> Copyright &copy; 2021</p>
+                </div>
+                <nav>
+                    <ul class="md">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="puppies.html">Puppies</a></li>
+                        <li><a href="stud.html">Stud</a></li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+            </div>
+        </footer>
+
+
+</html>
