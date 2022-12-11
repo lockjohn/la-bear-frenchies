@@ -59,7 +59,6 @@ img.animated-gif{
     width: 100%;
     height: auto;
   }
-
 header {
     position: sticky;
     top: 0;
@@ -334,6 +333,7 @@ height: 80px;
 .puppy {
     position: relative;
 }
+
 
 .sold {
     position: absolute; 
