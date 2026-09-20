@@ -1,0 +1,26 @@
+{
+  "heading": "Puppies Available NOW: June 15th, 2026",
+  "description": "We are expecting a new litter of puppies in mid to late July. Please text 214.406.4578 for the most up-to-date pictures and videos, or to schedule a video call.\n\nAll puppies are up-to-date on vaccinations and come with a health guarantee and full breeding rights. The prices of the puppies vary depending on sex and color.\n\nDelivery is available, and we can always work with you to find the perfect delivery date for your puppy.",
+  "puppies": [
+    {
+      "show": false,
+      "header": "boy, merle",
+      "description": "SOLD — Bentonville, AR",
+      "photos": [
+        "images/puppies/2025/merlemale.jpeg",
+        "images/puppies/2025/merlemale2.jpeg",
+        "images/puppies/2025/merlemale3.jpeg"
+      ]
+    },
+    {
+      "show": false,
+      "header": "boy, blue brindle",
+      "description": "SOLD — Conroe, TX",
+      "photos": [
+        "images/puppies/2025/bluebrindle.jpg",
+        "images/puppies/2025/bluemale1.jpg",
+        "images/puppies/2025/bluemale2.jpg"
+      ]
+    }
+  ]
+}

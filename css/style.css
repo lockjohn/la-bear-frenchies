@@ -333,6 +333,22 @@ height: 80px;
     position: relative;
 }
 
+.cms-rich-text {
+    white-space: pre-line;
+}
+
+.available-puppy h2 {
+    margin-bottom: 0.75rem;
+}
+
+.available-puppy img + img {
+    margin-top: 0.75rem;
+}
+
+.available-puppy p {
+    margin-top: 1rem;
+}
+
 
 .sold {
     position: absolute; 
