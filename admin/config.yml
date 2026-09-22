@@ -15,8 +15,8 @@ media_library:
   name: cloudinary
   output_filename_only: false
   config:
-    cloud_name: REPLACE_WITH_CLOUDINARY_CLOUD_NAME
-    api_key: REPLACE_WITH_CLOUDINARY_API_KEY
+    cloud_name: e1dnqmsa
+    api_key: 632213766552137
     default_transformations:
       - - fetch_format: auto
           quality: auto
