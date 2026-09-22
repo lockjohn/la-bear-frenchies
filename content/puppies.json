@@ -21,6 +21,14 @@
         "images/puppies/2025/bluemale1.jpg",
         "images/puppies/2025/bluemale2.jpg"
       ]
+    },
+    {
+      "show": true,
+      "header": "Test test test",
+      "description": "test test test",
+      "photos": [
+        "https://res.cloudinary.com/e1dnqmsa/image/upload/c_limit,f_auto,q_auto,w_1800/v1790042781/pinkmale1.jpg"
+      ]
     }
   ]
 }
