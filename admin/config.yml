@@ -105,11 +105,12 @@ collections:
             name: description
             widget: text
             hint: "Write the current availability, upcoming puppies, contact, pricing, or delivery information."
-          - label: Available puppies
+          - label: Puppy listings
             name: puppies
             widget: list
+            hint: "Add, remove, hide, or reorder puppies. Only listings with Show on website enabled will appear."
             summary: "{{fields.header}}"
-            label_singular: Puppy
+            label_singular: Puppy listing
             fields:
               - label: Show on website
                 name: show
