@@ -1,5 +1,5 @@
 {
-  "heading": "Puppies Available NOW: September 21st, 2026",
+  "heading": "Puppies Available NOW: September 23rd, 2026",
   "description": "Violet's litter of Isabella and 'Pink' puppies (boys and girls) are here! Please text 214.406.4578 for the most up-to-date pictures and videos, or to schedule a video call.\n\nAll puppies are up-to-date on vaccinations and come with a health guarantee and full breeding rights. The prices of the puppies vary depending on sex and color.\n\nDelivery is available, and we can always work with you to find the perfect delivery date for your puppy.",
   "puppies": [
     {
@@ -32,6 +32,14 @@
       "photos": [
         "images/puppies/2025/nsf1.jpeg",
         "images/puppies/2025/nsf2.jpeg"
+      ]
+    },
+    {
+      "show": true,
+      "header": "Test Edit CMS Puppy Page",
+      "description": "Test test",
+      "photos": [
+        "https://res.cloudinary.com/e1dnqmsa/image/upload/v1790042781/pinkmale1.jpg"
       ]
     }
   ]
