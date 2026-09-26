@@ -49,6 +49,14 @@
       "photos": [
         "/images/uploads/pinkmale1.jpeg"
       ]
+    },
+    {
+      "show": true,
+      "header": "Test mobile heic cloudinary",
+      "description": "Test test",
+      "photos": [
+        "https://res.cloudinary.com/e1dnqmsa/image/upload/c_limit,f_auto,q_auto,w_1800/v1790433665/IMG_9220.jpg"
+      ]
     }
   ]
 }
