@@ -13,17 +13,17 @@ logo:
 
 media_folder: images/uploads
 public_folder: /images/uploads
-media_library:
-  name: cloudinary
-  output_filename_only: false
-  config:
-    cloud_name: e1dnqmsa
-    api_key: 632213766552137
-    default_transformations:
-      - - fetch_format: auto
-          quality: auto
+media_libraries:
+  default:
+    config:
+      max_file_size: 20971520
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
           width: 1800
-          crop: limit
+          height: 1800
 
 publish_mode: simple
 search: false
