@@ -1,0 +1,132 @@
+backend:
+  name: github
+  repo: lockjohn/la-bear-frenchies
+  branch: codex/cms-foundation
+  base_url: https://labearfrenchies-cms-auth.labearfrenchies.workers.dev
+  auth_scope: public_repo
+
+site_url: https://www.labearfrenchies.com
+display_url: https://www.labearfrenchies.com
+logo:
+  src: https://www.labearfrenchies.com/images/logos/Gold&MagentaLilac.png
+  show_in_header: true
+
+media_folder: images/uploads
+public_folder: /images/uploads
+media_libraries:
+  default:
+    config:
+      max_file_size: 20971520
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 1800
+          height: 1800
+
+publish_mode: simple
+search: false
+show_preview_links: false
+editor:
+  preview: false
+
+collections:
+  - name: website
+    label: Website
+    format: json
+    files:
+      - name: home
+        label: Home Page Photos
+        file: content/home.json
+        fields:
+          - label: Intro Photo
+            name: intro_image
+            widget: object
+            fields:
+              - { label: Photo, name: image, widget: image }
+              - { label: Photo description, name: alt, widget: string, required: false }
+          - label: Feature Photos
+            name: feature_images
+            widget: object
+            fields:
+              - label: Award photo — left
+                name: award_left
+                widget: object
+                fields:
+                  - { label: Photo, name: image, widget: image }
+                  - { label: Photo description, name: alt, widget: string, required: false }
+              - label: Award photo — right
+                name: award_right
+                widget: object
+                fields:
+                  - { label: Photo, name: image, widget: image }
+                  - { label: Photo description, name: alt, widget: string, required: false }
+              - label: AKC photo
+                name: akc
+                widget: object
+                fields:
+                  - { label: Photo, name: image, widget: image }
+                  - { label: Photo description, name: alt, widget: string, required: false }
+              - label: Rare colors photo — left
+                name: rare_left
+                widget: object
+                fields:
+                  - { label: Photo, name: image, widget: image }
+                  - { label: Photo description, name: alt, widget: string, required: false }
+              - label: Rare colors photo — right
+                name: rare_right
+                widget: object
+                fields:
+                  - { label: Photo, name: image, widget: image }
+                  - { label: Photo description, name: alt, widget: string, required: false }
+          - label: Meet the Mamas
+            name: mamas
+            widget: list
+            summary: "{{fields.alt}}"
+            fields:
+              - { label: Photo, name: image, widget: image }
+              - { label: Short description, name: alt, widget: string, required: false }
+          - label: Happy Homes Gallery
+            name: happy_homes
+            widget: list
+            summary: "{{fields.alt}}"
+            fields:
+              - { label: Photo, name: image, widget: image }
+              - { label: Short description, name: alt, widget: string, required: false }
+
+      - name: puppies
+        label: Available Puppies
+        file: content/puppies.json
+        fields:
+          - label: Page heading
+            name: heading
+            widget: string
+            hint: "Example: Puppies available now"
+          - label: Current information
+            name: description
+            widget: text
+            hint: "Write the current availability, upcoming puppies, contact, pricing, or delivery information."
+          - label: Puppy listings
+            name: puppies
+            widget: list
+            hint: "Add, remove, hide, or reorder puppies. Only listings with Show on website enabled will appear."
+            summary: "{{fields.header}}"
+            label_singular: Puppy listing
+            fields:
+              - label: Show on website
+                name: show
+                widget: boolean
+                default: true
+              - label: Short heading
+                name: header
+                widget: string
+                hint: "Example: blue merle female, 10 weeks, playful and confident"
+              - label: Additional description
+                name: description
+                widget: text
+                required: false
+              - label: Photos
+                name: photos
+                widget: list
+                field: { label: Photo, name: photo, widget: image }

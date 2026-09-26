@@ -1,0 +1,38 @@
+{
+  "heading": "Puppies Available NOW: September 21st, 2026",
+  "description": "Violet's litter of Isabella and 'Pink' puppies (boys and girls) are here! Please text 214.406.4578 for the most up-to-date pictures and videos, or to schedule a video call.\n\nAll puppies are up-to-date on vaccinations and come with a health guarantee and full breeding rights. The prices of the puppies vary depending on sex and color.\n\nDelivery is available, and we can always work with you to find the perfect delivery date for your puppy.",
+  "puppies": [
+    {
+      "show": true,
+      "header": "boys, both Pink",
+      "description": "",
+      "photos": [
+        "images/puppies/2025/pinkmales1.jpeg",
+        "images/puppies/2025/pinkmales2.jpeg",
+        "images/puppies/2025/pinkmales3.jpeg",
+        "images/puppies/2025/pinkmales4.png",
+        "images/puppies/2025/pinkmales5.png",
+        "images/puppies/2025/pinkmales6.png"
+      ]
+    },
+    {
+      "show": true,
+      "header": "girl, New Shade Isabella and Tan (fully suited)",
+      "description": "",
+      "photos": [
+        "images/puppies/2025/intf1.jpeg",
+        "images/puppies/2025/intf2.jpeg",
+        "images/puppies/2025/intf3.jpeg"
+      ]
+    },
+    {
+      "show": true,
+      "header": "girl, New Shade Isabella",
+      "description": "",
+      "photos": [
+        "images/puppies/2025/nsf1.jpeg",
+        "images/puppies/2025/nsf2.jpeg"
+      ]
+    }
+  ]
+}
