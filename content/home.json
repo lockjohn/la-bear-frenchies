@@ -1,0 +1,188 @@
+{
+  "intro_image": {
+    "image": "images/pool.JPG",
+    "alt": "French Bulldogs relaxing together by the pool"
+  },
+  "feature_images": {
+    "award_left": {
+      "image": "images/about/award-1.jpg",
+      "alt": "Award-winning La Bear French Bulldog"
+    },
+    "award_right": {
+      "image": "images/about/award-2.jpg",
+      "alt": "La Bear French Bulldog award photo"
+    },
+    "akc": {
+      "image": "images/pups04/rufus.jpg",
+      "alt": "AKC-registered French Bulldog puppy"
+    },
+    "rare_left": {
+      "image": "images/puppies/blue merle 3.jpeg",
+      "alt": "Blue merle French Bulldog puppy"
+    },
+    "rare_right": {
+      "image": "images/about/rare-1.jpg",
+      "alt": "Exotic-color French Bulldog"
+    }
+  },
+  "mamas": [
+    {
+      "image": "images/mamas/IMG_5479.JPG",
+      "alt": "La Bear Frenchie mama"
+    },
+    {
+      "image": "images/mamas/IMG_5580.JPG",
+      "alt": "La Bear Frenchie mama"
+    },
+    {
+      "image": "images/mamas/IMG_5583.JPG",
+      "alt": "La Bear Frenchie mama"
+    },
+    {
+      "image": "images/mamas/IMG_5601.JPG",
+      "alt": "La Bear Frenchie mama"
+    },
+    {
+      "image": "images/mamas/IMG_5620.JPG",
+      "alt": "La Bear Frenchie mama"
+    }
+  ],
+  "happy_homes": [
+    {
+      "image": "images/happyhomes/IMG_5435.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5436.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5452.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5477.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5481.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5483.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5635.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5484.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5485.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5488.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5593.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5595.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5598.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5599.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5600.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5602.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5603.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5605.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5606.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5608.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5646.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5685.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5686.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5699.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5710.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5717.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5721.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5722.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5750.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5610.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5698.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5587.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5480.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    },
+    {
+      "image": "images/happyhomes/IMG_5715.JPG",
+      "alt": "La Bear Frenchie in a happy home"
+    }
+  ]
+}
