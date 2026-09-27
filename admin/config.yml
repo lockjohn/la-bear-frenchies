@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: lockjohn/la-bear-frenchies
-  branch: codex/cms-foundation
+  branch: main
   base_url: https://labearfrenchies-cms-auth.labearfrenchies.workers.dev
   auth_scope: public_repo
 
