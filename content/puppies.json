@@ -33,16 +33,6 @@
         "images/puppies/2025/nsf1.jpeg",
         "images/puppies/2025/nsf2.jpeg"
       ]
-    },
-    {
-      "show": true,
-      "header": "Test test",
-      "description": "Test",
-      "photos": [
-        "/images/uploads/pinkmale1.webp",
-        "/images/uploads/img_5925.webp",
-        "/images/uploads/img_5926.webp"
-      ]
     }
   ]
 }
