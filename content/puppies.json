@@ -4,15 +4,16 @@
   "puppies": [
     {
       "show": true,
-      "header": "boys, both Pink",
+      "header": "Boys, pink and new shade Isabella",
       "description": "",
       "photos": [
         "/images/uploads/img_1801.webp",
         "/images/uploads/img_1768.webp",
         "/images/uploads/img_1782.webp",
         "/images/uploads/img_1788.webp",
-        "images/puppies/2025/pinkmales5.png",
-        "images/puppies/2025/pinkmales6.png"
+        "/images/uploads/img_2527.webp",
+        "/images/uploads/img_2470.webp",
+        "/images/uploads/img_2446.webp"
       ]
     },
     {
